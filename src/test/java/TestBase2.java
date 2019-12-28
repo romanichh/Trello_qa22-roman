@@ -13,7 +13,7 @@ public class TestBase2 {
     @BeforeClass
     public void setUp() {
         wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
     }
 
@@ -34,16 +34,16 @@ public class TestBase2 {
         Thread.sleep(time);
     }
 
-    public void fillLoginForm() throws InterruptedException {
+    public void fillLoginForm(String user, String pwd) throws InterruptedException {
         //username
-        type(By.id("user"), "romich87");
+        type(By.id("user"), user);
         pause(3000);
         click(By.id("login"));
         //email
         type(By.id("username"), "romich87@gmail.com");
         click(By.id("login-submit"));
         //password
-        type(By.id("password"), "romanich1987");
+        type(By.id("password"), pwd);
         click(By.id("login-submit"));
         pause(20000);
     }
