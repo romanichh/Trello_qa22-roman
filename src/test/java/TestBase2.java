@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -70,4 +71,11 @@ public class TestBase2 {
     public boolean isAvatarPresentOnHeader() {
         return isElementPresent(By.cssSelector("[data-test-id='header-member-menu-button']"));
     }
+
+    public void login() throws InterruptedException {
+        clickLoginLink();
+        fillLoginForm("romich87", "romanich1987");
+        Assert.assertTrue(isAvatarPresentOnHeader());
+    }
+
 }
