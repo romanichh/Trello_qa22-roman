@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 public class BoardCreationTests extends TestBase2 {
     @BeforeMethod
     public void Preconditions() throws InterruptedException {
-        if (isAvatarPresentOnHeader()) {
+        if (!isAvatarPresentOnHeader()) {
             createBoard();
         }
     }
-
+@Test
     public void createBoard() throws InterruptedException {
         if (isAvatarPresentOnHeader()) {
             click(By.cssSelector(".board-tile.mod-add"));
