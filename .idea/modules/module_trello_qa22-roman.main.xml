@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_trello_qa22-roman.main" default="compile.module.trello_qa22-roman.main">
+  <dirname property="module.trello_qa22-roman.main.basedir" file="${ant.file.module_trello_qa22-roman.main}"/>
+  
+  <property name="module.jdk.home.trello_qa22-roman.main" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.trello_qa22-roman.main" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.trello_qa22-roman.main" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.trello_qa22-roman.main" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="trello_qa22-roman.main.output.dir" value="${module.trello_qa22-roman.main.basedir}/../../build/classes/java/main"/>
+  <property name="trello_qa22-roman.main.testoutput.dir" value="${module.trello_qa22-roman.main.basedir}/../../build/classes/java/main"/>
+  
+  <path id="trello_qa22-roman.main.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="trello_qa22-roman.main.module.production.classpath">
+    <path refid="${module.jdk.classpath.trello_qa22-roman.main}"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-java:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.testng:testng:7.0.0.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-chrome-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-edge-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-firefox-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-ie-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-opera-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-safari-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-support:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-remote-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-api:3.141.59.classpath"/>
+    <path refid="library.gradle:_net.bytebuddy:byte-buddy:1.8.15.classpath"/>
+    <path refid="library.gradle:_org.apache.commons:commons-exec:1.3.classpath"/>
+    <path refid="library.gradle:_com.google.guava:guava:25.0-jre.classpath"/>
+    <path refid="library.gradle:_com.squareup.okhttp3:okhttp:3.11.0.classpath"/>
+    <path refid="library.gradle:_com.squareup.okio:okio:1.14.0.classpath"/>
+    <path refid="library.gradle:_com.beust:jcommander:1.72.classpath"/>
+    <path refid="library.gradle:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.gradle:_org.checkerframework:checker-compat-qual:2.0.0.classpath"/>
+    <path refid="library.gradle:_com.google.errorprone:error_prone_annotations:2.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.j2objc:j2objc-annotations:1.1.classpath"/>
+    <path refid="library.gradle:_org.codehaus.mojo:animal-sniffer-annotations:1.14.classpath"/>
+  </path>
+  
+  <path id="trello_qa22-roman.main.runtime.production.module.classpath">
+    <pathelement location="${trello_qa22-roman.main.output.dir}"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-java:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.testng:testng:7.0.0.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-chrome-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-edge-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-firefox-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-ie-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-opera-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-safari-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-support:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-remote-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-api:3.141.59.classpath"/>
+    <path refid="library.gradle:_net.bytebuddy:byte-buddy:1.8.15.classpath"/>
+    <path refid="library.gradle:_org.apache.commons:commons-exec:1.3.classpath"/>
+    <path refid="library.gradle:_com.google.guava:guava:25.0-jre.classpath"/>
+    <path refid="library.gradle:_com.squareup.okhttp3:okhttp:3.11.0.classpath"/>
+    <path refid="library.gradle:_com.squareup.okio:okio:1.14.0.classpath"/>
+    <path refid="library.gradle:_com.beust:jcommander:1.72.classpath"/>
+    <path refid="library.gradle:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.gradle:_org.checkerframework:checker-compat-qual:2.0.0.classpath"/>
+    <path refid="library.gradle:_com.google.errorprone:error_prone_annotations:2.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.j2objc:j2objc-annotations:1.1.classpath"/>
+    <path refid="library.gradle:_org.codehaus.mojo:animal-sniffer-annotations:1.14.classpath"/>
+  </path>
+  
+  <path id="trello_qa22-roman.main.module.classpath">
+    <path refid="${module.jdk.classpath.trello_qa22-roman.main}"/>
+    <pathelement location="${trello_qa22-roman.main.output.dir}"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-java:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.testng:testng:7.0.0.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-chrome-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-edge-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-firefox-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-ie-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-opera-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-safari-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-support:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-remote-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-api:3.141.59.classpath"/>
+    <path refid="library.gradle:_net.bytebuddy:byte-buddy:1.8.15.classpath"/>
+    <path refid="library.gradle:_org.apache.commons:commons-exec:1.3.classpath"/>
+    <path refid="library.gradle:_com.google.guava:guava:25.0-jre.classpath"/>
+    <path refid="library.gradle:_com.squareup.okhttp3:okhttp:3.11.0.classpath"/>
+    <path refid="library.gradle:_com.squareup.okio:okio:1.14.0.classpath"/>
+    <path refid="library.gradle:_com.beust:jcommander:1.72.classpath"/>
+    <path refid="library.gradle:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.gradle:_org.checkerframework:checker-compat-qual:2.0.0.classpath"/>
+    <path refid="library.gradle:_com.google.errorprone:error_prone_annotations:2.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.j2objc:j2objc-annotations:1.1.classpath"/>
+    <path refid="library.gradle:_org.codehaus.mojo:animal-sniffer-annotations:1.14.classpath"/>
+  </path>
+  
+  <path id="trello_qa22-roman.main.runtime.module.classpath">
+    <pathelement location="${trello_qa22-roman.main.output.dir}"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-java:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.testng:testng:7.0.0.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-chrome-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-edge-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-firefox-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-ie-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-opera-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-safari-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-support:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-remote-driver:3.141.59.classpath"/>
+    <path refid="library.gradle:_org.seleniumhq.selenium:selenium-api:3.141.59.classpath"/>
+    <path refid="library.gradle:_net.bytebuddy:byte-buddy:1.8.15.classpath"/>
+    <path refid="library.gradle:_org.apache.commons:commons-exec:1.3.classpath"/>
+    <path refid="library.gradle:_com.google.guava:guava:25.0-jre.classpath"/>
+    <path refid="library.gradle:_com.squareup.okhttp3:okhttp:3.11.0.classpath"/>
+    <path refid="library.gradle:_com.squareup.okio:okio:1.14.0.classpath"/>
+    <path refid="library.gradle:_com.beust:jcommander:1.72.classpath"/>
+    <path refid="library.gradle:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.gradle:_org.checkerframework:checker-compat-qual:2.0.0.classpath"/>
+    <path refid="library.gradle:_com.google.errorprone:error_prone_annotations:2.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.j2objc:j2objc-annotations:1.1.classpath"/>
+    <path refid="library.gradle:_org.codehaus.mojo:animal-sniffer-annotations:1.14.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.trello_qa22-roman.main">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.trello_qa22-roman.main">
+    <patternset refid="excluded.from.module.trello_qa22-roman.main"/>
+  </patternset>
+  
+  <path id="trello_qa22-roman.main.module.sourcepath">
+    <dirset dir="${module.trello_qa22-roman.main.basedir}/../../src/main">
+      <include name="java"/>
+      <include name="resources"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.trello_qa22-roman.main" depends="compile.module.trello_qa22-roman.main.production,compile.module.trello_qa22-roman.main.tests" description="Compile module Trello_qa22-roman.main"/>
+  
+  <target name="compile.module.trello_qa22-roman.main.production" depends="register.custom.compilers" description="Compile module Trello_qa22-roman.main; production classes">
+    <mkdir dir="${trello_qa22-roman.main.output.dir}"/>
+    <javac2 destdir="${trello_qa22-roman.main.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.trello_qa22-roman.main}/javac">
+      <compilerarg line="${compiler.args.trello_qa22-roman.main}"/>
+      <bootclasspath refid="trello_qa22-roman.main.module.bootclasspath"/>
+      <classpath refid="trello_qa22-roman.main.module.production.classpath"/>
+      <src refid="trello_qa22-roman.main.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.trello_qa22-roman.main"/>
+    </javac2>
+    
+    <copy todir="${trello_qa22-roman.main.output.dir}">
+      <fileset dir="${module.trello_qa22-roman.main.basedir}/../../src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.trello_qa22-roman.main.basedir}/../../src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.trello_qa22-roman.main.tests" depends="register.custom.compilers,compile.module.trello_qa22-roman.main.production" description="compile module Trello_qa22-roman.main; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.trello_qa22-roman.main" description="cleanup module">
+    <delete dir="${trello_qa22-roman.main.output.dir}"/>
+    <delete dir="${trello_qa22-roman.main.testoutput.dir}"/>
+  </target>
+</project>

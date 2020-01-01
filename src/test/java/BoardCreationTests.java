@@ -1,46 +1,47 @@
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BoardCreationTests extends TestBase2 {
+public class BoardCreationTests extends TestBase {
     @BeforeMethod
-    public void Preconditions() throws InterruptedException {
-        if (isAvatarPresentOnHeader()) {
-            createBoard();
+    public void preconditions() throws InterruptedException {
+        if (!isAvatarPresentOnHeader()) {
+            login();
         }
-    }
 
-    public void createBoard() throws InterruptedException {
-        if (isAvatarPresentOnHeader()) {
-            click(By.cssSelector(".board-tile.mod-add"));
-
-            wd.findElement(By.cssSelector("[data-test-id='create-board-title-input']")).sendKeys("Test");
-
-            click(By.xpath("//*[@title='green']"));
-            click(By.cssSelector("[data-test-id='create-board-submit-button']"));
-            Thread.sleep(5000);
-            click(By.cssSelector("[data-test-id='header-member-menu-button']"));
-            click(By.cssSelector("[data-test-id='header-member-menu-logout']"));
-
-        }
-    }
-
-
-    @Test
-    public void testLogin() throws InterruptedException {
-        //clickLogin
-        clickLoginLink();
-        fillLoginForm("romich87", "romanich1987");
-        Assert.assertTrue(isAvatarPresentOnHeader());
     }
 
     @Test
-    public void testLoginAgain() throws InterruptedException {
-        //clickLogin
-        clickLoginLink();
-        fillLoginForm("romich87", "romanich1987");
-        Assert.assertTrue(isAvatarPresentOnHeader());
+    public void testBoardCreationFromHeader() throws InterruptedException {
+        clickOnPlusButton();
+        selectCreateBoardFromDropDown();
+        fillBoardForm("qa22" + System.currentTimeMillis());
+        confirmBoardCreation();
+        pause(5000);
+        returnToHomePage();
+    }
+
+    public void returnToHomePage() throws InterruptedException {
+        click(By.name("house"));
+        click(By.name("house"));
+        pause(10000);
+    }
+
+    public void confirmBoardCreation() {
+        click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+    }
+
+    public void fillBoardForm(String boardName) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    }
+
+    public void selectCreateBoardFromDropDown() {
+        click(By.xpath("//span[@name='board']/..//p"));
+    }
+
+    public void clickOnPlusButton() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+
     }
 
 

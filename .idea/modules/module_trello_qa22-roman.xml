@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_trello_qa22-roman" default="compile.module.trello_qa22-roman">
+  <dirname property="module.trello_qa22-roman.basedir" file="${ant.file.module_trello_qa22-roman}"/>
+  
+  <property name="module.jdk.home.trello_qa22-roman" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.trello_qa22-roman" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.trello_qa22-roman" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.trello_qa22-roman" value="-encoding UTF-8 -source 12 -target 12 ${compiler.args}"/>
+  
+  <property name="trello_qa22-roman.output.dir" value="${module.trello_qa22-roman.basedir}/../../out/production/Trello_qa22-roman"/>
+  <property name="trello_qa22-roman.testoutput.dir" value="${module.trello_qa22-roman.basedir}/../../out/test/Trello_qa22-roman"/>
+  
+  <path id="trello_qa22-roman.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="trello_qa22-roman.module.production.classpath">
+    <path refid="${module.jdk.classpath.trello_qa22-roman}"/>
+  </path>
+  
+  <path id="trello_qa22-roman.runtime.production.module.classpath">
+    <pathelement location="${trello_qa22-roman.output.dir}"/>
+  </path>
+  
+  <path id="trello_qa22-roman.module.classpath">
+    <path refid="${module.jdk.classpath.trello_qa22-roman}"/>
+    <pathelement location="${trello_qa22-roman.output.dir}"/>
+  </path>
+  
+  <path id="trello_qa22-roman.runtime.module.classpath">
+    <pathelement location="${trello_qa22-roman.testoutput.dir}"/>
+    <pathelement location="${trello_qa22-roman.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.trello_qa22-roman">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.trello_qa22-roman">
+    <patternset refid="excluded.from.module.trello_qa22-roman"/>
+  </patternset>
+  
+  
+  <target name="compile.module.trello_qa22-roman" depends="compile.module.trello_qa22-roman.production,compile.module.trello_qa22-roman.tests" description="Compile module Trello_qa22-roman"/>
+  
+  <target name="compile.module.trello_qa22-roman.production" depends="register.custom.compilers" description="Compile module Trello_qa22-roman; production classes"/>
+  
+  <target name="compile.module.trello_qa22-roman.tests" depends="register.custom.compilers,compile.module.trello_qa22-roman.production" description="compile module Trello_qa22-roman; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.trello_qa22-roman" description="cleanup module">
+    <delete dir="${trello_qa22-roman.output.dir}"/>
+    <delete dir="${trello_qa22-roman.testoutput.dir}"/>
+  </target>
+</project>

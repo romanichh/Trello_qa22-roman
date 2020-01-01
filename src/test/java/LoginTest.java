@@ -12,7 +12,7 @@ public class LoginTest extends TestBase{
         maximize();
         click(By.cssSelector("[href='/login']"));
         type(By.id("user"), "romich87");
-        sleep(5000);
+        pause(5000);
 
         if (wd.findElement(By.id("password")).isDisplayed()){
             //fill password
@@ -26,7 +26,7 @@ public class LoginTest extends TestBase{
             click(By.id("login-submit"));
             type(By.id("password"), "romanich1987");
             click(By.id("login-submit"));
-            sleep(20000);
+            pause(20000);
         }
     }
 
