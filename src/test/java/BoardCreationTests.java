@@ -4,24 +4,12 @@ import org.testng.annotations.Test;
 
 public class BoardCreationTests extends TestBase {
     @BeforeMethod
-<<<<<<< HEAD
     public void preconditions() throws InterruptedException {
         if (!isAvatarPresentOnHeader()) {
             login();
         }
 
     }
-=======
-    public void Preconditions() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            createBoard();
-        }
-    }
-@Test
-    public void createBoard() throws InterruptedException {
-        if (isAvatarPresentOnHeader()) {
-            click(By.cssSelector(".board-tile.mod-add"));
->>>>>>> 342edc6472bfe93cc80ffd2b5f41c8586bb49dce
 
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
