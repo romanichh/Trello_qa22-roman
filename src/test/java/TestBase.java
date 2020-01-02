@@ -78,4 +78,26 @@ public class TestBase {
         Assert.assertTrue(isAvatarPresentOnHeader());
     }
 
+    public void returnToHomePage() throws InterruptedException {
+        click(By.name("house"));
+        click(By.name("house"));
+        pause(10000);
+    }
+
+    public void confirmBoardCreation() {
+        click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+    }
+
+    public void fillBoardForm(String boardName) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    }
+
+    public void selectCreateBoardFromDropDown() {
+        click(By.xpath("//span[@name='board']/..//p"));
+    }
+
+    public void clickOnPlusButton() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+
+    }
 }
