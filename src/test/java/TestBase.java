@@ -2,8 +2,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,14 +11,14 @@ public class TestBase {
 
     WebDriver wd;
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp() {
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
     }
 
-    @AfterClass
+    @AfterSuite
     public void tearDown() {
         wd.quit();
     }
@@ -99,5 +99,14 @@ public class TestBase {
     public void clickOnPlusButton() {
         click(By.cssSelector("[data-test-id='header-create-menu-button']"));
 
+    }
+
+    public int getBoardsCount() {
+        return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size() - 1;
+    }
+
+    public void logout() {
+        click(By.cssSelector("[data-test-id='header-member-menu-button']"));
+        click(By.cssSelector("[data-test-id='header-member-menu-logout']"));
     }
 }
