@@ -3,9 +3,7 @@
 <suite name="Trello" verbose="1">
     <test name="SmokeTest">
         <classes>
-            <class name="LoginTestHW"/>
-            <class name="LoginTest"/>
-            <class name="BoardCreationTests"/>
+            <class name="BoardDeletionTests"/>
         </classes>
     </test>
 </suite>

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-    WebDriver wd;
+    protected static WebDriver wd;
 
     @BeforeSuite
     public void setUp() {
@@ -108,5 +108,21 @@ public class TestBase {
     public void logout() {
         click(By.cssSelector("[data-test-id='header-member-menu-button']"));
         click(By.cssSelector("[data-test-id='header-member-menu-logout']"));
+    }
+
+    public void closeAgreeButton() {
+        click(By.cssSelector("[value='Close']"));
+    }
+
+    public void closeBoard() {
+        click(By.xpath("//*[@class='board-menu-navigation-item-link js-close-board']"));
+    }
+
+    public void clickOnThreePoints() {
+            click(By.xpath("//*[@class='icon-sm icon-overflow-menu-horizontal board-menu-navigation-item-link-icon']"));
+    }
+
+    public void clickOnBoard() {
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li[1]"));
     }
 }
