@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Teams" verbose="1">
+    <test name="Regression">
+        <classes>
+            <class name="TeamCreationTests"/>
+            <class name="TeamModificationTests"/>
+            <class name="TeamDeletionTests"/>
+        </classes>
+    </test>
+</suite>

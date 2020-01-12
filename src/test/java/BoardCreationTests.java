@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
@@ -23,6 +24,20 @@ public class BoardCreationTests extends TestBase {
 
         int after = getBoardsCount();
         Assert.assertEquals(after, before + 1);
+    }
+
+    @Test
+    public void testBoardCreationFromHomePage() throws InterruptedException {
+        clickOnCreateButton();
+        fillBoardForm("qa22" + System.currentTimeMillis());
+        confirmBoardCreation();
+        pause(5000);
+        returnToHomePage();
+    }
+
+    public void clickOnCreateButton() {
+        click(By.cssSelector(".board-tile.mod-add"));
+
     }
 
     @AfterClass

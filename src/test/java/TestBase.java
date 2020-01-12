@@ -149,4 +149,45 @@ public class TestBase {
         pause(5000);
         returnToHomePage();
     }
+
+    public void clickLaterButton() {
+        click(By.cssSelector("[data-test-id='show-later-button']"));
+    }
+
+    public int getTeamsCount() {
+        return wd.findElements(By.cssSelector("[data-test-id^=home-team-tab-section]")).size();
+    }
+
+    public void submitTeamCreation() {
+        click(By.cssSelector("[data-test-id='header-create-team-submit-button']"));
+    }
+
+    public void closeInviteToTheTeamForm() {
+        click(By.cssSelector("[name='close']"));
+    }
+
+    public void fillTeamCreationForm(String teamName, String teamDescr) {
+        type(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamName);
+        type(By.cssSelector("[id$=description]"), teamDescr);
+    }
+
+    public void selectCreateTeamFromDropDown() {
+        click(By.cssSelector("[data-test-id='header-create-team-button']"));
+    }
+
+    public void submitDeletion() {
+        click(By.cssSelector("[value='Delete Forever']"));
+    }
+
+    public void clickOnDeleteTeamButton() {
+        click(By.xpath("//*[@class='quiet-button']"));
+    }
+
+    public void clickOnTeamSettings() {
+        click(By.cssSelector("[class^=icon-gear]"));
+    }
+
+    public void clickOnTheTeam() {
+        click(By.cssSelector("[data-test-id^=home-team-tab-section]"));
+    }
 }
