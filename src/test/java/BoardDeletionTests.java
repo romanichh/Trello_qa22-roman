@@ -16,24 +16,44 @@ public class BoardDeletionTests extends TestBase {
         int before = getBoardsCount();
         System.out.println(before);
         clickOnBoard();
-        if (!isElementPresent(By.xpath("//*[@class='board-header-btn hide js-map-btn']"))) {
+
+        if (!isElementPresent(By.cssSelector(".board-menu-header-title"))) {
+            click(By.cssSelector(".js-show-sidebar"));
+            clickOnThreePoints();
+            closeBoard();
+            closeAgreeButton();
+            pause(5000);
+            returnToHomePage();
+        } else {
             clickOnThreePoints();
             closeBoard();
             closeAgreeButton();
             pause(5000);
             returnToHomePage();
         }
-        if (isElementPresent(By.xpath("//*[@class='board-header-btn hide js-map-btn']"))) {
-            click(By.cssSelector(".board-header-btn.mod-show-menu.js-show-sidebar"));
-            closeBoard();
-            closeAgreeButton();
-            pause(5000);
-            returnToHomePage();
-        }
-
 
         int after = getBoardsCount();
         System.out.println(after);
         Assert.assertEquals(after, before - 1);
+    }
+
+    @Test
+    public void testFirstBoardDeletion1() throws InterruptedException {
+        clickOnBoard();
+        clickOnThreePoints();
+        closeBoard();
+        closeAgreeButton();
+        permanentlyDeleteBoard();
+        returnToHomePage();
+        pause(10000);
+    }
+
+    public void permanentlyDeleteBoard() {
+        click(By.cssSelector(".js-delete"));
+        confirmCloseBoard();
+    }
+
+    public void confirmCloseBoard() {
+        click(By.cssSelector(".js-confirm[type='submit']"));
     }
 }
