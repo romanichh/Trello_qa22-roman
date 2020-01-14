@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -7,20 +6,20 @@ public class TeamDeletionTests extends TestBase {
 
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            login();
+        if (!app.isAvatarPresentOnHeader()) {
+            app.login();
         }
     }
 
 
     @Test
     public void deletionBoardTests() {
-        int countCountbefore = getTeamsCount();
-        clickOnTheTeam();
-        clickOnTeamSettings();
-        clickOnDeleteTeamButton();
-        submitDeletion();
-        int TeamCountAfter = getTeamsCount();
+        int countCountbefore = app.getTeamsCount();
+        app.clickOnTheTeam();
+        app.clickOnTeamSettings();
+        app.clickOnDeleteTeamButton();
+        app.submitDeletion();
+        int TeamCountAfter = app.getTeamsCount();
         Assert.assertEquals(TeamCountAfter, countCountbefore - 1);
     }
 

@@ -6,54 +6,46 @@ import org.testng.annotations.Test;
 public class BoardDeletionTests extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            login();
+        if (!app.isAvatarPresentOnHeader()) {
+            app.login();
         }
     }
 
     @Test
     public void testBoardDeletionFromHeader() throws InterruptedException {
-        int before = getBoardsCount();
+        int before = app.getBoardsCount();
         System.out.println(before);
-        clickOnBoard();
+        app.clickOnBoard();
 
-        if (!isElementPresent(By.cssSelector(".board-menu-header-title"))) {
-            click(By.cssSelector(".js-show-sidebar"));
-            clickOnThreePoints();
-            closeBoard();
-            closeAgreeButton();
-            pause(5000);
-            returnToHomePage();
+        if (!app.isElementPresent(By.cssSelector(".board-menu-header-title"))) {
+            app.click(By.cssSelector(".js-show-sidebar"));
+            app.clickOnThreePoints();
+            app.closeBoard();
+            app.closeAgreeButton();
+            app.pause(5000);
+            app.returnToHomePage();
         } else {
-            clickOnThreePoints();
-            closeBoard();
-            closeAgreeButton();
-            pause(5000);
-            returnToHomePage();
+            app.clickOnThreePoints();
+            app.closeBoard();
+            app.closeAgreeButton();
+            app.pause(5000);
+            app.returnToHomePage();
         }
 
-        int after = getBoardsCount();
+        int after = app.getBoardsCount();
         System.out.println(after);
         Assert.assertEquals(after, before - 1);
     }
 
     @Test
     public void testFirstBoardDeletion1() throws InterruptedException {
-        clickOnBoard();
-        clickOnThreePoints();
-        closeBoard();
-        closeAgreeButton();
-        permanentlyDeleteBoard();
-        returnToHomePage();
-        pause(10000);
+        app.clickOnBoard();
+        app.clickOnThreePoints();
+        app.closeBoard();
+        app.closeAgreeButton();
+        app.permanentlyDeleteBoard();
+        app.returnToHomePage();
+        app.pause(10000);
     }
 
-    public void permanentlyDeleteBoard() {
-        click(By.cssSelector(".js-delete"));
-        confirmCloseBoard();
-    }
-
-    public void confirmCloseBoard() {
-        click(By.cssSelector(".js-confirm[type='submit']"));
-    }
 }

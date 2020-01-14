@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -6,26 +5,26 @@ import org.testng.annotations.Test;
 public class TeamCreationTests extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            login();
+        if (!app.isAvatarPresentOnHeader()) {
+            app.login();
         }
     }
 
     @Test
     public void teamCreationTestFromHeader() throws InterruptedException {
-        int countCountbefore = getTeamsCount();
-        clickOnPlusButton();
-        selectCreateTeamFromDropDown();
-        fillTeamCreationForm("teamName", "teamDescr");
-        submitTeamCreation();
+        int countCountbefore = app.getTeamsCount();
+        app.clickOnPlusButton();
+        app.selectCreateTeamFromDropDown();
+        app.fillTeamCreationForm("teamName", "teamDescr");
+        app.submitTeamCreation();
 //        if (isElementPresent(By.cssSelector("[name='close']"))) {
 //            closeInviteToTheTeamForm();
 //        }
-        clickLaterButton();
-        int TeamCountAfter = getTeamsCount();
-        returnToHomePage();
+        app.clickLaterButton();
+        int TeamCountAfter = app.getTeamsCount();
+        app.returnToHomePage();
         Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
-        pause(5000);
+        app.pause(5000);
     }
 
 }
