@@ -1,3 +1,6 @@
+package com.telran.trello.tests;
+
+import com.telran.trello.fw.ApplicationManager;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 

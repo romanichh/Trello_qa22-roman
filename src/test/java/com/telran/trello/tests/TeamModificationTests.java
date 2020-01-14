@@ -1,21 +1,23 @@
+package com.telran.trello.tests;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TeamModificationTests extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!app.isAvatarPresentOnHeader()) {
-            app.login();
+        if (!app.getSession().isAvatarPresentOnHeader()) {
+            app.getSession().login();
         }
     }
 
     @Test
     public void modificationTeamName() throws InterruptedException {
-        app.clickOnTheTeam();
-        app.clickOnTeamSettings();
-        app.clickOnEditTeamProfileButton();
-        app.changeTeamName();
-        app.returnToHomePage();
+        app.getTeam().clickOnTheTeam();
+        app.getTeam().clickOnTeamSettings();
+        app.getTeam().clickOnEditTeamProfileButton();
+        app.getTeam().changeTeamName();
+        app.getHeader().returnToHomePage();
 //        clickOnTheTeam();
 //        clickOnTeamSettings();
 //        String name = getText(By.cssSelector(".u-inline"));

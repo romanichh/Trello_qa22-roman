@@ -3,9 +3,9 @@
 <suite name="Suite1" verbose="1">
     <test name="Regression">
         <classes>
-            <class name="LoginTestHW"/>
-            <class name="BoardCreationTests"/>
-            <class name="BoardDeletionTests"/>
+            <class name="com.telran.trello.tests.LoginTestHW"/>
+            <class name="com.telran.trello.tests.BoardCreationTests"/>
+            <class name="com.telran.trello.tests.BoardDeletionTests"/>
         </classes>
     </test>
 </suite>
