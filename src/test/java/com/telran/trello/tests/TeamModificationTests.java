@@ -18,10 +18,6 @@ public class TeamModificationTests extends TestBase {
         app.getTeam().clickOnEditTeamProfileButton();
         app.getTeam().changeTeamName();
         app.getHeader().returnToHomePage();
-//        clickOnTheTeam();
-//        clickOnTeamSettings();
-//        String name = getText(By.cssSelector(".u-inline"));
-//        System.out.println(name);
 
     }
 

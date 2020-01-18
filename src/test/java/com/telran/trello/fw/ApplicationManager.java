@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     WebDriver wd;
+
     BoardHelper board;
     TeamHelper team;
     HeaderHelper header;

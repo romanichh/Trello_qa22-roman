@@ -1,5 +1,6 @@
 package com.telran.trello.fw;
 
+import com.telran.trello.model.BoardData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -19,8 +20,8 @@ public class BoardHelper extends HelperBase {
         click(By.cssSelector("[data-test-id='create-board-submit-button']"));
     }
 
-    public void fillBoardForm(String boardName) {
-        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    public void fillBoardForm(BoardData boardData) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardData.getBoardName());
     }
 
     public void selectCreateBoardFromDropDown() {

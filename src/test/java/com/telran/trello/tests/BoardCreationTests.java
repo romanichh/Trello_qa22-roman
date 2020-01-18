@@ -1,5 +1,6 @@
 package com.telran.trello.tests;
 
+import com.telran.trello.model.BoardData;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
@@ -18,7 +19,7 @@ public class BoardCreationTests extends TestBase {
         int before = app.getBoard().getBoardsCount();
         app.getHeader().clickOnPlusButton();
         app.getBoard().selectCreateBoardFromDropDown();
-        app.getBoard().fillBoardForm("qa22" + System.currentTimeMillis());
+        app.getBoard().fillBoardForm(new BoardData("qa22" + System.currentTimeMillis()));
         app.getBoard().confirmBoardCreation();
         app.getBoard().pause(5000);
         app.getHeader().returnToHomePage();
@@ -30,7 +31,7 @@ public class BoardCreationTests extends TestBase {
     @Test
     public void testBoardCreationFromHomePage() throws InterruptedException {
         app.getBoard().clickOnCreateButton();
-        app.getBoard().fillBoardForm("qa22" + System.currentTimeMillis());
+        app.getBoard().fillBoardForm(new BoardData("qa22" + System.currentTimeMillis()));
         app.getBoard().confirmBoardCreation();
         app.getBoard().pause(5000);
         app.getHeader().returnToHomePage();
