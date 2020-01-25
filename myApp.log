@@ -1,0 +1,4 @@
+2020-01-25 19:45:47,561 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-01-25 19:46:33,432 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-01-25 19:50:13,667 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-01-25 19:50:59,761 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException

@@ -16,13 +16,13 @@ public class TeamDeletionTests extends TestBase {
 
     @Test
     public void deletionBoardTests() {
-        int countCountbefore = app.getTeam().getTeamsCount();
+        int countCountBefore = app.getTeam().getTeamsCount();
         app.getTeam().clickOnTheTeam();
         app.getTeam().clickOnTeamSettings();
         app.getTeam().clickOnDeleteTeamButton();
         app.getTeam().submitDeletion();
         int TeamCountAfter = app.getTeam().getTeamsCount();
-        Assert.assertEquals(TeamCountAfter, countCountbefore - 1);
+        Assert.assertEquals(TeamCountAfter, countCountBefore - 1);
     }
 
 

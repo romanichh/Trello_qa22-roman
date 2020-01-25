@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class SessionHelper extends HelperBase{
+public class SessionHelper extends HelperBase {
     public SessionHelper(WebDriver wd) {
         super(wd);
     }
@@ -39,7 +39,6 @@ public class SessionHelper extends HelperBase{
     public void login() throws InterruptedException {
         clickLoginLink();
         fillLoginForm("romich87", "romanich1987");
-        Assert.assertTrue(isAvatarPresentOnHeader());
     }
 
     public void logout() {
