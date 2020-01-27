@@ -1,0 +1,15 @@
+2020-01-28 00:26:04,869 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-01-28 00:26:40,357 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testLogin
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login1"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13e474559ee7af62e0bbe612bc2f105a
+*** Element info: {Using=id, value=login1}
+2020-01-28 00:26:40,796 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580164000785.png
+2020-01-28 00:26:40,798 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException

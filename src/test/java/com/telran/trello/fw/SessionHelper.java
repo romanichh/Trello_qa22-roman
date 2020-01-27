@@ -2,7 +2,6 @@ package com.telran.trello.fw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class SessionHelper extends HelperBase {
     public SessionHelper(WebDriver wd) {
