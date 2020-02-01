@@ -1,0 +1,9 @@
+2020-02-01 14:16:39,629 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testDeletionAvatar with parameters[]
+2020-02-01 14:17:24,733 INFO [Test worker] c.t.t.t.TestBase [DeletionUserAvatarTest.java:16] avatar before:
+2020-02-01 14:17:25,192 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580559445181.png
+2020-02-01 14:17:47,305 INFO [Test worker] c.t.t.t.TestBase [DeletionUserAvatarTest.java:24] avatar after:
+2020-02-01 14:17:47,634 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580559467632.png
+2020-02-01 14:17:47,637 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testDeletionAvatar PASSED
+2020-02-01 14:17:47,638 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.DeletionUserAvatarTest.testDeletionAvatar() throws java.lang.InterruptedException

@@ -1,0 +1,93 @@
+2020-02-01 13:14:28,703 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeader with parameters[]
+2020-02-01 13:15:28,900 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeader
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-create-team-type-input']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+*** Element info: {Using=css selector, value=[data-test-id='header-create-team-type-input']}
+2020-02-01 13:15:29,346 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555729338.png
+2020-02-01 13:15:29,348 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeader() throws java.lang.InterruptedException
+2020-02-01 13:15:29,384 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='a', teamDescr='d'}]
+2020-02-01 13:15:30,535 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderCSV
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:30,921 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555730917.png
+2020-02-01 13:15:30,922 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:15:30,923 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='clnsjbbw4kmkfqh_kmjvi', teamDescr='12nsjbbw4kmkfqhkmjvi'}]
+2020-02-01 13:15:32,025 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderCSV
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:32,412 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555732407.png
+2020-02-01 13:15:32,413 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:15:32,415 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec', teamDescr='18AqLcEeEWulk6niGVdelIGX5K8Q4s7w2Vuv1G1I5fHJcprShO5kdqTeK29rq"'}]
+2020-02-01 13:15:33,538 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderCSV
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:33,936 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555733934.png
+2020-02-01 13:15:33,937 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:15:33,939 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWhithNameOnly with parameters[]
+2020-02-01 13:15:35,028 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWhithNameOnly
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:35,378 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555735376.png
+2020-02-01 13:15:35,379 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWhithNameOnly() throws java.lang.InterruptedException
+2020-02-01 13:15:35,386 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[name DP, description DP]
+2020-02-01 13:15:36,494 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWithDP
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:36,890 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555736888.png
+2020-02-01 13:15:36,891 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2020-02-01 13:15:36,892 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[DPn, ]
+2020-02-01 13:15:37,963 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWithDP
+ FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (1552, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _1URVGCiHsrWlwF _1M7BOT0FSOTl2E" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f893c2d19fa1a4868fa56fb092680e
+2020-02-01 13:15:38,337 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555738334.png
+2020-02-01 13:15:38,339 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException

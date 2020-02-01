@@ -18,4 +18,8 @@ public class HeaderHelper extends HelperBase{
         click(By.cssSelector("[data-test-id='header-create-menu-button']"));
 
     }
+
+    public void clickOnAvatar() {
+        click(By.cssSelector("[data-test-id='header-member-menu-button']"));
+    }
 }

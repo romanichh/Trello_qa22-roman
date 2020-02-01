@@ -1,0 +1,9 @@
+2020-02-01 13:24:44,761 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='a', teamDescr='d'}]
+2020-02-01 13:25:47,105 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-01 13:25:47,111 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:25:47,116 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='clnsjbbw4kmkfqh_kmjvi', teamDescr='12nsjbbw4kmkfqhkmjvi'}]
+2020-02-01 13:26:03,609 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-01 13:26:03,610 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:26:03,612 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec', teamDescr='18AqLcEeEWulk6niGVdelIGX5K8Q4s7w2Vuv1G1I5fHJcprShO5kdqTeK29rq"'}]
+2020-02-01 13:26:20,507 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-01 13:26:20,510 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException

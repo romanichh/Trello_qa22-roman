@@ -1,0 +1,33 @@
+2020-02-01 13:17:29,474 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeader with parameters[]
+2020-02-01 13:18:30,890 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeader PASSED
+2020-02-01 13:18:30,895 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeader() throws java.lang.InterruptedException
+2020-02-01 13:18:30,927 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='a', teamDescr='d'}]
+2020-02-01 13:18:47,684 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-01 13:18:47,688 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:18:47,693 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='clnsjbbw4kmkfqh_kmjvi', teamDescr='12nsjbbw4kmkfqhkmjvi'}]
+2020-02-01 13:19:04,396 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-01 13:19:04,399 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:19:04,403 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec', teamDescr='18AqLcEeEWulk6niGVdelIGX5K8Q4s7w2Vuv1G1I5fHJcprShO5kdqTeK29rq"'}]
+2020-02-01 13:19:31,234 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderCSV
+ FAILED
+java.lang.AssertionError: expected [12] but found [0]
+2020-02-01 13:19:31,654 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555971645.png
+2020-02-01 13:19:31,656 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-01 13:19:31,657 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWhithNameOnly with parameters[]
+2020-02-01 13:19:57,969 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWhithNameOnly
+ FAILED
+java.lang.AssertionError: expected [1] but found [13]
+2020-02-01 13:19:58,354 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580555998352.png
+2020-02-01 13:19:58,356 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWhithNameOnly() throws java.lang.InterruptedException
+2020-02-01 13:19:58,358 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[name DP, description DP]
+2020-02-01 13:20:14,774 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderWithDP PASSED
+2020-02-01 13:20:14,778 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2020-02-01 13:20:14,782 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[DPn, ]
+2020-02-01 13:20:41,115 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWithDP
+ FAILED
+java.lang.AssertionError: expected [15] but found [0]
+2020-02-01 13:20:41,496 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580556041494.png
+2020-02-01 13:20:41,498 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException

@@ -1,0 +1,9 @@
+2020-02-01 14:52:28,221 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testChangeAvatar with parameters[]
+2020-02-01 14:53:13,944 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:16] avatar before:
+2020-02-01 14:53:14,429 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580561594417.png
+2020-02-01 14:54:04,274 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:22] avatar after:
+2020-02-01 14:54:04,688 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580561644684.png
+2020-02-01 14:54:04,691 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testChangeAvatar PASSED
+2020-02-01 14:54:04,694 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.ChangeUserAvatarTest.testChangeAvatar() throws java.lang.InterruptedException

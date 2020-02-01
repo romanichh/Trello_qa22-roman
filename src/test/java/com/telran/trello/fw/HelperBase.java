@@ -3,6 +3,8 @@ package com.telran.trello.fw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.io.File;
+
 public class HelperBase {
     WebDriver wd;
 
@@ -32,5 +34,16 @@ public class HelperBase {
 
     private String getText(By Text) {
         return wd.findElement(Text).getText();
+    }
+
+    public void attach(By locator, File file) {
+        if (file != null) {
+            wd.findElement(locator).sendKeys(file.getAbsolutePath());
+        }
+        try {
+            pause(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
