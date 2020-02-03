@@ -1,0 +1,30 @@
+2020-02-01 20:53:35,253 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-02-01 20:54:15,414 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testLogin
+ FAILED
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 815f58612b4364c7416031b37183bf8f
+2020-02-01 20:54:15,852 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580583255841.png
+2020-02-01 20:54:15,853 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-02-01 20:54:15,854 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLoginAgain with parameters[]
+2020-02-01 20:54:45,929 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testLoginAgain
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 815f58612b4364c7416031b37183bf8f
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-01 20:54:46,312 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580583286309.png
+2020-02-01 20:54:46,313 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+2020-02-01 20:54:46,317 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeader with parameters[]
+2020-02-01 20:55:16,521 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardDeletionFromHeader with parameters[]

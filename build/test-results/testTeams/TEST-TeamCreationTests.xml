@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TeamCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-11T22:05:11" hostname="DESKTOP-U7V5MJ9" time="31.962">
+  <properties/>
+  <testcase name="teamCreationTestFromHeader" classname="TeamCreationTests" time="31.962"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

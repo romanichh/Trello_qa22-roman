@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-01T19:44:30" hostname="DESKTOP-U7V5MJ9" time="36.795">
+  <properties/>
+  <testcase name="testBoardDeletionFromHeader" classname="com.telran.trello.tests.BoardDeletionTests" time="15.826"/>
+  <testcase name="testFirstBoardDeletion1" classname="com.telran.trello.tests.BoardDeletionTests" time="20.949"/>
+  <system-out><![CDATA[21:44:30.884 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardDeletionFromHeader with parameters[]
+4
+3
+21:44:46.747 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardDeletionFromHeader PASSED
+21:44:46.748 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardDeletionTests.testBoardDeletionFromHeader() throws java.lang.InterruptedException
+21:44:46.750 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testFirstBoardDeletion1 with parameters[]
+21:45:07.717 [Test worker] INFO  com.telran.trello.utils.Listener - testFirstBoardDeletion1 PASSED
+21:45:07.721 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardDeletionTests.testFirstBoardDeletion1() throws java.lang.InterruptedException
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

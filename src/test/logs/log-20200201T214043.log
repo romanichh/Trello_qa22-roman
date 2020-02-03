@@ -1,0 +1,30 @@
+2020-02-01 21:40:51,642 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-02-01 21:41:51,056 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLogin PASSED
+2020-02-01 21:41:51,058 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-02-01 21:41:51,060 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLoginAgain with parameters[]
+2020-02-01 21:42:24,440 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLoginAgain PASSED
+2020-02-01 21:42:24,444 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+2020-02-01 21:42:24,451 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeader with parameters[]
+2020-02-01 21:42:40,384 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeader PASSED
+2020-02-01 21:42:40,388 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeader() throws java.lang.InterruptedException
+2020-02-01 21:42:40,411 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='1'}]
+2020-02-01 21:42:56,080 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-01 21:42:56,083 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-01 21:42:56,087 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='a'}]
+2020-02-01 21:43:11,765 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-01 21:43:11,768 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-01 21:43:11,770 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+2020-02-01 21:43:27,574 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-01 21:43:27,576 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-01 21:43:27,578 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+2020-02-01 21:43:43,568 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-01 21:43:43,569 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-01 21:43:43,571 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHomePage with parameters[]
+2020-02-01 21:43:59,200 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHomePage PASSED
+2020-02-01 21:43:59,204 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHomePage() throws java.lang.InterruptedException
+2020-02-01 21:44:30,884 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardDeletionFromHeader with parameters[]
+2020-02-01 21:44:46,747 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardDeletionFromHeader PASSED
+2020-02-01 21:44:46,748 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testBoardDeletionFromHeader() throws java.lang.InterruptedException
+2020-02-01 21:44:46,750 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testFirstBoardDeletion1 with parameters[]
+2020-02-01 21:45:07,717 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testFirstBoardDeletion1 PASSED
+2020-02-01 21:45:07,721 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testFirstBoardDeletion1() throws java.lang.InterruptedException
