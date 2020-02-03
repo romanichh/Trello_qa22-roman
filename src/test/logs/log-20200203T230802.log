@@ -1,0 +1,16 @@
+2020-02-03 23:08:11,280 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-02-03 23:08:58,225 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLogin PASSED
+2020-02-03 23:08:58,226 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-02-03 23:08:58,228 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLoginAgain with parameters[]
+2020-02-03 23:09:30,948 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLoginAgain PASSED
+2020-02-03 23:09:30,950 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+2020-02-03 23:09:30,954 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeader with parameters[]
+2020-02-03 23:09:46,833 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeader PASSED
+2020-02-03 23:09:46,835 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeader() throws java.lang.InterruptedException
+2020-02-03 23:09:46,853 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='1'}]
+2020-02-03 23:10:02,502 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:10:02,503 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:10:02,504 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='a'}]
+2020-02-03 23:10:18,186 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:10:18,187 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:10:18,190 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]

@@ -1,0 +1,95 @@
+2020-02-03 23:18:54,859 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeader with parameters[]
+2020-02-03 23:19:57,372 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeader PASSED
+2020-02-03 23:19:57,373 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeader() throws java.lang.InterruptedException
+2020-02-03 23:19:57,388 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='1'}]
+2020-02-03 23:20:13,057 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:20:13,058 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:20:13,059 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='a'}]
+2020-02-03 23:20:28,644 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:20:28,646 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:20:28,648 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+2020-02-03 23:20:44,434 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:20:44,436 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:20:44,437 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+2020-02-03 23:21:00,638 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-03 23:21:00,641 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+2020-02-03 23:21:00,644 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHomePage with parameters[]
+2020-02-03 23:21:16,320 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardCreationFromHomePage PASSED
+2020-02-03 23:21:16,322 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHomePage() throws java.lang.InterruptedException
+2020-02-03 23:23:58,801 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardDeletionFromHeader with parameters[]
+2020-02-03 23:24:48,542 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardDeletionFromHeader PASSED
+2020-02-03 23:24:48,544 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testBoardDeletionFromHeader() throws java.lang.InterruptedException
+2020-02-03 23:24:48,546 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testFirstBoardDeletion1 with parameters[]
+2020-02-03 23:25:28,499 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testFirstBoardDeletion1
+ FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".js-delete"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d82c02e7fd5739962505d0305458ef9
+*** Element info: {Using=css selector, value=.js-delete}
+2020-02-03 23:25:29,352 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765129337.png
+2020-02-03 23:25:29,353 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testFirstBoardDeletion1() throws java.lang.InterruptedException
+2020-02-03 23:25:29,355 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testChangeAvatar with parameters[]
+2020-02-03 23:25:29,373 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:31] avatar before:
+2020-02-03 23:25:29,722 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765129721.png
+2020-02-03 23:26:19,327 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:37] avatar after:
+2020-02-03 23:26:19,700 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765179698.png
+2020-02-03 23:26:19,701 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testChangeAvatar PASSED
+2020-02-03 23:26:19,702 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.ChangeUserAvatarTest.testChangeAvatar() throws java.lang.InterruptedException
+2020-02-03 23:26:19,703 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testDeletionAvatar with parameters[]
+2020-02-03 23:26:19,717 INFO [Test worker] c.t.t.t.TestBase [DeletionUserAvatarTest.java:16] avatar before:
+2020-02-03 23:26:20,026 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765180023.png
+2020-02-03 23:26:40,742 INFO [Test worker] c.t.t.t.TestBase [DeletionUserAvatarTest.java:24] avatar after:
+2020-02-03 23:26:41,110 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765201108.png
+2020-02-03 23:26:41,111 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testDeletionAvatar PASSED
+2020-02-03 23:26:41,112 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.DeletionUserAvatarTest.testDeletionAvatar() throws java.lang.InterruptedException
+2020-02-03 23:26:41,113 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-02-03 23:27:15,422 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLogin PASSED
+2020-02-03 23:27:15,423 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-02-03 23:27:15,424 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLoginAgain with parameters[]
+2020-02-03 23:27:47,357 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testLoginAgain PASSED
+2020-02-03 23:27:47,358 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+2020-02-03 23:27:47,359 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeader with parameters[]
+2020-02-03 23:28:19,423 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeader PASSED
+2020-02-03 23:28:19,423 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeader() throws java.lang.InterruptedException
+2020-02-03 23:28:19,428 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='a', teamDescr='d'}]
+2020-02-03 23:28:35,898 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-03 23:28:35,899 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-03 23:28:35,900 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='clnsjbbw4kmkfqh_kmjvi', teamDescr='12nsjbbw4kmkfqhkmjvi'}]
+2020-02-03 23:28:52,531 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-03 23:28:52,532 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-03 23:28:52,535 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderCSV with parameters[TeamData{teamName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec', teamDescr='18AqLcEeEWulk6niGVdelIGX5K8Q4s7w2Vuv1G1I5fHJcprShO5kdqTeK29rq"'}]
+2020-02-03 23:29:09,385 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderCSV PASSED
+2020-02-03 23:29:09,387 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderCSV(com.telran.trello.model.TeamData) throws java.lang.InterruptedException
+2020-02-03 23:29:09,389 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWhithNameOnly with parameters[]
+2020-02-03 23:29:25,633 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] teamCreationTestFromHeaderWhithNameOnly PASSED
+2020-02-03 23:29:25,634 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWhithNameOnly() throws java.lang.InterruptedException
+2020-02-03 23:29:25,637 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[name DP, description DP]
+2020-02-03 23:29:52,062 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWithDP
+ FAILED
+java.lang.AssertionError: expected [6] but found [0]
+2020-02-03 23:29:52,394 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765392393.png
+2020-02-03 23:29:52,395 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2020-02-03 23:29:52,397 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test teamCreationTestFromHeaderWithDP with parameters[DPn, ]
+2020-02-03 23:30:30,792 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] teamCreationTestFromHeaderWithDP
+ FAILED
+java.lang.AssertionError: expected [1] but found [7]
+2020-02-03 23:30:31,326 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1580765431324.png
+2020-02-03 23:30:31,327 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2020-02-03 23:30:31,328 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test deletionBoardTests with parameters[]
+2020-02-03 23:30:33,402 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] deletionBoardTests PASSED
+2020-02-03 23:30:33,403 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamDeletionTests.deletionBoardTests()
+2020-02-03 23:30:33,405 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test modificationTeamName with parameters[]
+2020-02-03 23:30:44,910 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] modificationTeamName PASSED
+2020-02-03 23:30:44,911 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.TeamModificationTests.modificationTeamName() throws java.lang.InterruptedException
