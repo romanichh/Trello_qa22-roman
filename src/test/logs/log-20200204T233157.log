@@ -1,0 +1,6 @@
+2020-02-04 23:32:05,493 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardDeletionFromHeader with parameters[]
+2020-02-04 23:33:07,678 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testBoardDeletionFromHeader PASSED
+2020-02-04 23:33:07,681 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testBoardDeletionFromHeader() throws java.lang.InterruptedException
+2020-02-04 23:33:07,686 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testFirstBoardDeletion1 with parameters[]
+2020-02-04 23:33:29,014 INFO [Test worker] c.t.t.u.Listener [Listener.java:15] testFirstBoardDeletion1 PASSED
+2020-02-04 23:33:29,015 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.BoardDeletionTests.testFirstBoardDeletion1() throws java.lang.InterruptedException

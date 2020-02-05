@@ -45,9 +45,10 @@ public class SessionHelper extends HelperBase {
         fillLoginForm("romich87", "romanich1987");
     }
 
-    public void logout() {
+    public void logout() throws InterruptedException {
         click(By.cssSelector("[data-test-id='header-member-menu-button']"));
         click(By.cssSelector("[data-test-id='header-member-menu-logout']"));
+        pause(10000);
     }
 
     public void openUserProfileFromDropDown() {
