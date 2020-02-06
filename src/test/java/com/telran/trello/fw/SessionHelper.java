@@ -28,6 +28,7 @@ public class SessionHelper extends HelperBase {
 //        type(By.id("password"), pwd);
         click(By.id("login-submit"));
         pause(20000);
+        
     }
 
     public void confirmLogin() {
