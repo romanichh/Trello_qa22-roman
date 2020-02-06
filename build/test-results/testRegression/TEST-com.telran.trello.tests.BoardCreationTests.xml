@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.trello.tests.BoardCreationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-06T20:27:37" hostname="DESKTOP-U7V5MJ9" time="99.799">
+<testsuite name="com.telran.trello.tests.BoardCreationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-06T20:53:26" hostname="DESKTOP-U7V5MJ9" time="100.641">
   <properties/>
-  <testcase name="testBoardCreationFromHeader" classname="com.telran.trello.tests.BoardCreationTests" time="16.765"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[0](BoardData boardName='1'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.66"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[1](BoardData boardName='a'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.499"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[2](BoardData boardName='clnsjbbw4kmkfqh_kmjvi'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.635"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[3](BoardData boardName='&quot;gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.734"/>
-  <testcase name="testBoardCreationFromHomePage" classname="com.telran.trello.tests.BoardCreationTests" time="16.416"/>
-  <system-out><![CDATA[22:27:37.866 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeader with parameters[]
-22:27:54.639 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeader PASSED
-22:27:54.640 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeader() throws java.lang.InterruptedException
-22:27:54.656 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='1'}]
-22:28:11.328 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
-22:28:11.330 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
-22:28:11.332 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='a'}]
-22:28:27.841 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
-22:28:27.842 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
-22:28:27.845 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
-22:28:44.489 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
-22:28:44.491 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
-22:28:44.492 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
-22:29:01.239 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
-22:29:01.241 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
-22:29:01.245 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHomePage with parameters[]
-22:29:17.673 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHomePage PASSED
-22:29:17.674 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHomePage() throws java.lang.InterruptedException
+  <testcase name="testBoardCreationFromHeader" classname="com.telran.trello.tests.BoardCreationTests" time="16.944"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[0](BoardData boardName='1'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.784"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[1](BoardData boardName='a'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.625"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[2](BoardData boardName='clnsjbbw4kmkfqh_kmjvi'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.733"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[3](BoardData boardName='&quot;gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'})" classname="com.telran.trello.tests.BoardCreationTests" time="16.819"/>
+  <testcase name="testBoardCreationFromHomePage" classname="com.telran.trello.tests.BoardCreationTests" time="16.627"/>
+  <system-out><![CDATA[22:53:26.690 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeader with parameters[]
+22:53:43.647 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeader PASSED
+22:53:43.650 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeader() throws java.lang.InterruptedException
+22:53:43.669 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='1'}]
+22:54:00.468 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+22:54:00.470 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+22:54:00.472 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='a'}]
+22:54:17.109 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+22:54:17.114 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+22:54:17.117 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+22:54:33.859 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+22:54:33.862 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+22:54:33.867 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+22:54:50.705 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+22:54:50.706 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV(com.telran.trello.model.BoardData) throws java.lang.InterruptedException
+22:54:50.708 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testBoardCreationFromHomePage with parameters[]
+22:55:07.343 [Test worker] INFO  com.telran.trello.utils.Listener - testBoardCreationFromHomePage PASSED
+22:55:07.346 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHomePage() throws java.lang.InterruptedException
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
