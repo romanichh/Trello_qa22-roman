@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.tests.LoginTestHW" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-06T20:25:46" hostname="DESKTOP-U7V5MJ9" time="111.661">
+  <properties/>
+  <testcase name="testLogin" classname="com.telran.trello.tests.LoginTestHW" time="60.935"/>
+  <testcase name="testLoginAgain" classname="com.telran.trello.tests.LoginTestHW" time="38.451"/>
+  <system-out><![CDATA[22:25:31.098 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testLogin with parameters[]
+22:26:47.093 [Test worker] INFO  com.telran.trello.utils.Listener - testLogin PASSED
+22:26:47.099 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+22:26:47.104 [Test worker] INFO  com.telran.trello.tests.TestBase - Start test testLoginAgain with parameters[]
+22:27:37.814 [Test worker] INFO  com.telran.trello.utils.Listener - testLoginAgain PASSED
+22:27:37.817 [Test worker] INFO  com.telran.trello.tests.TestBase - Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+]]></system-out>
+  <system-err><![CDATA[1581020746902	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581020820166	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+]]></system-err>
+</testsuite>

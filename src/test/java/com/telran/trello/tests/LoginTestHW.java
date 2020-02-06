@@ -17,6 +17,7 @@ public class LoginTestHW extends TestBase {
         //clickLogin
         app.getSession().clickLoginLink();
         app.getSession().fillLoginForm("romich87", "romanich1987");
+        app.getSession().pause(20000);
         Assert.assertTrue(app.getSession().isAvatarPresentOnHeader());
     }
 

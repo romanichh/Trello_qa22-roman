@@ -1,0 +1,28 @@
+2020-02-06 22:12:46,453 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLogin with parameters[]
+2020-02-06 22:13:12,247 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testLogin
+ FAILED
+org.openqa.selenium.ElementNotInteractableException: Element <input id="password" class="Input__InputElement-sc-1o6bj35-0 bfCuIo" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212822, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8332, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 451cafaf-dc29-447e-97d0-f7899ba20ff3
+2020-02-06 22:13:12,511 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1581019992438.png
+2020-02-06 22:13:12,512 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLogin() throws java.lang.InterruptedException
+2020-02-06 22:13:12,514 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testLoginAgain with parameters[]
+2020-02-06 22:13:42,588 ERROR [Test worker] c.t.t.u.Listener [Listener.java:20] testLoginAgain
+ FAILED
+org.openqa.selenium.NoSuchElementException: Unable to locate element: [href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7V5MJ9', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212822, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8332, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 451cafaf-dc29-447e-97d0-f7899ba20ff3
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-06 22:13:42,772 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\Trello_qa22-roman\src\test\screenshots\screen-1581020022770.png
+2020-02-06 22:13:42,773 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:27] Stop test public void com.telran.trello.tests.LoginTestHW.testLoginAgain() throws java.lang.InterruptedException
+2020-02-06 22:13:42,777 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardCreationFromHeader with parameters[]
+2020-02-06 22:14:12,945 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start test testBoardDeletionFromHeader with parameters[]
